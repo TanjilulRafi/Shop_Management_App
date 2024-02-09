@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text="Edit Items"
+        android:textColor="@color/white"
+        android:background="#24A6F1"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="550dp"
+        android:background="#C1DEEA"
+        android:padding="10dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/itemnm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/entryIname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/white"
+            android:layout_below="@id/itemnm"
+            android:hint="Enter item name"
+            android:gravity="center"
+            android:inputType="text"/>
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:layout_below="@id/entryIname"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/entryIquantity"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/white"
+            android:layout_below="@id/quantity"
+            android:hint="Enter quantity"
+            android:gravity="center"
+            android:inputType="number"/>
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit Price"
+            android:layout_below="@id/entryIquantity"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/entryprice"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/white"
+            android:layout_below="@id/price"
+            android:hint="Enter item price"
+            android:gravity="center"
+            android:inputType="number"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Back"
+            android:backgroundTint="#24A6F1"
+            android:textColor="@color/white"
+            android:layout_marginRight="5dp">
+        </Button>
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Save"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#24A6F1"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

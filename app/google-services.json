@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "151048972646",
+    "project_id": "shopmanagement-efacb",
+    "storage_bucket": "shopmanagement-efacb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151048972646:android:7b861d248e462c4c0000a7",
+        "android_client_info": {
+          "package_name": "edu.ewubd.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151048972646-caa9n8eujsu7k2u8fv4ch9f23bikgijn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ewubd.project",
+            "certificate_hash": "679d64ee15c61cf6d4835fff985e8dd575075feb"
+          }
+        },
+        {
+          "client_id": "151048972646-lm2ean31l4gi2tj66mf09scq9hm6o26i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAgi6XwV5lXZ6jPV9NbS1NF7JVpWuGU1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151048972646-lm2ean31l4gi2tj66mf09scq9hm6o26i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
